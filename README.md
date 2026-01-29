@@ -12,3 +12,5 @@ Only two files are needed: a .CSV file containing all of the camera frame events
 (4) Choose to either write individual segment (trials) or a single video file containing all trials.  Although a single file will be much larger, when multiple trials are used, it may be easier for file handling.
 (5) Give a file prefix for the created video (usually the animal identifier, and maybe the session; for example Rat14_Session1, etc.)
 (6) Click Process Videos and the file will be sent to the current video file directory.
+
+**In version 3, the event framepoint table will also indicate the duration of the marker (useful cross-check if different duration markers were used to to distinguish events).  In addition, when processing videos as 'All Trials', a 2s black frame will be added between video files to help distinguish when each trial starts/ends.**
