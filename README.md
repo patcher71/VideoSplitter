@@ -14,3 +14,5 @@ Only two files are needed: a .CSV file containing all of the camera frame events
 (6) Click Process Videos and the file will be sent to the current video file directory.
 
 **In version 3, the event framepoint table will also indicate the duration of the marker (useful cross-check if different duration markers were used to to distinguish events).  In addition, when processing videos as 'All Trials', a 2s black frame will be added between video files to help distinguish when each trial starts/ends.**
+
+**Version 4 allows the user to truncate videos to a pre-specified length**
